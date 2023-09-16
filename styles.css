@@ -1,4 +1,7 @@
-main, h1{ padding: 1em;}
+main, h1{ 
+  padding: 1em;
+  color: orangered
+}
 
 html{
   background-color: lightgray;
@@ -7,18 +10,29 @@ html{
 img{
   height: 10rem;
   width: auto;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px grey;
 }
 
 main p{
   background-color: gainsboro;
+  color: orangered;
 }
 
 main li{
   border: thin solid black;
   padding: 1em;
   background-color: gainsboro;
+  box-shadow: 10px 5px 5px grey;
+}
+
+main, ul{
+  list-style-type: none;
 }
 
 footer{
   border: thin solid black;
+  color: orangered;
 }
+
+
